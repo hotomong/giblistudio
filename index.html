@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHIBRI STUDIO</title>
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- 내가만든 css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- 파비콘 -->
+    <link rel="icon" sizes="57x57" href="./img/favicon.png">
+
+</head>
+
+<body>
+<!-- pc:1700 / tablet:1000 / mobile:600 -->
+<div id="header">
+    <div class="center">
+        <h1 class="logo"><a href="./index.html"><img src="./img/logo.png" alt="logo"></a></h1>
+        <ul class="pc_gnb">
+            <li><a href="#section1">About</a></li>
+            <li><a href="#section2">Flims</a></li>
+            <li><a href="#section3">News</a></li>
+            <li><a href="#section4">Ghibri</a></li>
+            <li><a href="#section5">Service</a></li>
+        </ul>
+
+        <div id="mobile_gnb_wrap">
+
+            <!-- 햄버거 버튼 -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- 모바일용 메뉴창 -->
+            <div id="menu">
+                <img class="mobile_gnb_totoro" src="./img/imgi_17_museo-darte-ghibli.png" alt="mobile_gnb_img">
+                <ul class="mobile_gnb">
+                    <li><a href="#section1">About</a></li>
+                    <li><a href="#section2">Flims</a></li>
+                    <li><a href="#section3">News</a></li>
+                    <li><a href="#section4">Ghibri</a></li>
+                    <li><a href="#section5">Service</a></li>
+                </ul>
+            </div>
+
+
+        </div> <!-- mobile gnb wrap end -->
+
+    </div> <!-- center end -->
+</div> <!-- header end -->
+
+
+<!-- TOP 버튼 -->
+    <a class="top_btn" href="#" onclick="scrollToTop(); return false;">
+        <img class="kuro-img" src="./img/kuro.png" alt="kuro">
+        <div class="tooltip">TOP</div>
+    </a>
+
+
+
+    <!-- sections -->
+    <!-- banner -->
+    <div id="section0">
+        <div class="first">
+            <img class="first_logo" src="./img/Studio_Ghibli.png" alt="first_logo">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/first1.jpg" alt="first1"></div>
+                    <div class="swiper-slide"><img src="./img/first2.jpg" alt="first2"></div>
+                    <div class="swiper-slide"><img src="./img/first3.jpg" alt="first3"></div>
+                    <div class="swiper-slide"><img src="./img/first4.jpg" alt="first4"></div>
+                    <div class="swiper-slide"><img src="./img/first5.jpg" alt="first5"></div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div> <!-- swiper  end -->
+        </div> <!-- first end -->
+    </div> <!-- section0 end -->
+
+
+    <!-- about -->
+    <div id="section1" >
+        <div class="section_center_about">
+            <div class="totoro"></div>
+            <h2>상상이 현실이 되는 곳</h2>
+            <img src="./img/imgi_17_museo-darte-ghibli.png" alt="section1_img">
+            <p>1985년, 미야자키 하야오와 다카하타 이사오 감독이 설립한 애니메이션 스튜디오입니다. <br>
+                자연과 인간의 공존, 순수한 아이들의 마음을 주제로 한 작품들로 전 세계 팬들의 마음을 사로잡았습니다.<br>
+                다수의 작품이 아카데미상을 수상하며 그 예술성을 인정받았고, '애니메이션의 마법'이라 불리는 독보적인 세계관을 구축하고 있습니다.<br>
+                자연과 인간의 공존, 아이들의 순수한 마음을 존중하며 모든 작품에 담아내려 했습니다.<br>
+                그의 이야기는 현실의 어려움 속에서도 꿈과 희망을 잃지 않는 메시지를 전합니다.</p>
+        </div>
+
+        <!-- 모바일버전 -->
+        <div class="section_center_about2">
+            <div class="totoro"></div>
+            <h2>상상이 현실이 되는 곳</h2>
+            <img src="./img/imgi_17_museo-darte-ghibli.png" alt="section1_img">
+            <p>1985년, 미야자키 하야오와 다카하타 이사오 감독이 설립한 애니메이션 스튜디오입니다. 자연과 인간의 공존, 순수한 아이들의 마음을 주제로 한 작품들로 전 세계 팬들의 마음을
+                사로잡았습니다. 다수의 작품이 아카데미상을 수상하며 그 예술성을 인정받았고, '애니메이션의 마법'이라 불리는 독보적인 세계관을 구축하고 있습니다. 그의 이야기는 현실의 어려움 속에서도
+                꿈과 희망을 잃지않는 메시지를 전합니다.</p>
+        </div>
+    </div> <!--section1 end -->
+
+
+
+
+
+
+
+    <!-- Flims -->
+    <div id="section2" >
+        <div class="section_center">
+            <div class="title"><img src="./img/dust.png" alt="dust">
+                <h2>Flims</h2>
+            </div>
+
+            <div class="flims">
+                <ul class="flims_wrap">
+                    <li>
+                        <div class="img_wrap">
+                            <img src="./img/imgi_3_kimitachi.jpg" alt="kimitachi">
+                        </div>
+                        <h3>그대들은 어떻게 살 것인가</h3>
+                        <h4>The Boy and the Heron (2023)</h4>
+                        <a class="more_btn" href="javascript:return false;">
+                            더보기
+                            <span class="btn-bubble-inner">
+                                <span class="btn-bubble-itembox">
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <div class="img_wrap">
+                            <img src="./img/imgi_6_marnie.jpg" alt="marnie">
+                        </div>
+                        <h3>추억의 마니</h3>
+                        <h4>When Marnie Was There (2014)</h4>
+                        <a class="more_btn" href="javascript:return false;">
+                            더보기
+                            <span class="btn-bubble-inner">
+                                <span class="btn-bubble-itembox">
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <div class="img_wrap">
+                            <img src="./img/imgi_11_ponyo.jpg" alt="ponyo">
+                        </div>
+                        <h3>벼랑 위의 포뇨</h3>
+                        <h4>Ponyo on the Cliff by the Sea (2008)</h4>
+                        <a class="more_btn" href="javascript:return false;">
+                            더보기
+                            <span class="btn-bubble-inner">
+                                <span class="btn-bubble-itembox">
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <div class="img_wrap">
+                            <img src="./img/imgi_13_howl.jpg" alt="howl">
+                        </div>
+                        <h3>하울의 움직이는 성</h3>
+                        <h4>Howl's Moving Castle (2004)</h4>
+                        <a class="more_btn" href="javascript:return false;">
+                            더보기
+                            <span class="btn-bubble-inner">
+                                <span class="btn-bubble-itembox">
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <div class="img_wrap">
+                            <img src="./img/imgi_16_chihiro.jpg" alt="chihiro">
+                        </div>
+                        <h3>센과 치히로의 행방불명</h3>
+                        <h4>Spirited Away (2001)</h4>
+                        <a class="more_btn" href="javascript:return false;">
+                            더보기
+                            <span class="btn-bubble-inner">
+                                <span class="btn-bubble-itembox">
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <div class="img_wrap">
+                            <img src="./img/imgi_18_mononoke.jpg" alt="mononoke">
+                        </div>
+                        <h3>모노노케 히메</h3>
+                        <h4>Princess Mononoke (1997)</h4>
+                        <a class="more_btn" href="javascript:return false;">
+                            더보기
+                            <span class="btn-bubble-inner">
+                                <span class="btn-bubble-itembox">
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <div class="img_wrap">
+                            <img src="./img/imgi_26_totoro.jpg" alt="totoro">
+                        </div>
+                        <h3>이웃집 토토로</h3>
+                        <h4>My Neighbor Totoro (1988)</h4>
+                        <a class="more_btn" href="javascript:return false;">
+                            더보기
+                            <span class="btn-bubble-inner">
+                                <span class="btn-bubble-itembox">
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <div class="img_wrap">
+                            <img src="./img/imgi_29_laputa.jpg" alt="laputa">
+                        </div>
+                        <h3>천공의 성 라퓨타</h3>
+                        <h4>Castle in the Sky (1986)</h4>
+                        <a class="more_btn" href="javascript:return false;">
+                            더보기
+                            <span class="btn-bubble-inner">
+                                <span class="btn-bubble-itembox">
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div> <!-- flims end -->
+        </div> <!--scetion center end -->
+
+
+
+        <!-- 나무 가오나시 -->
+<div class="flims_bg">
+    <img class="bg" src="./img/section_bg.png" alt="background">
+    <img class="gaonashi" src="./img/gaonashi.png" alt="gaonashi">
+</div>
+
+
+
+
+
+    <!-- news -->
+    <div id="section3">
+        <div class="section_center" >
+            <div class="news_title">
+                <div class="title">
+                    <img src="./img/dust.png" alt="dust">
+                    <h2>최신 정보</h2>
+                </div>
+                <a href="javascript:return false;">+ 더보기</a>
+
+            </div> <!-- title end -->
+
+            <div class="news_wrap">
+                <div class="news_left">
+                    <ul class="news">
+                        <li>
+                            <a href="javascript:return false;">「지브리 소식」2025년 9월호</a>
+                            <p>25.09.10</p>
+                        </li>
+                        <li>
+                            <a href="javascript:return false;">선명한 4K 영상으로 IMAX® 스크린에 되살아난다!</a>
+                            <p>25.08.29</p>
+                        </li>
+                        <li>
+                            <a href="javascript:return false;">마루 마나, 창업 최초의 TV CM 지브리가 제작</a>
+                            <p>25.08.18</p>
+                        </li>
+                        <li>
+                            <a href="javascript:return false;">「지브리 소식」2025년 8월호</a>
+                            <p>25.08.08</p>
+                        </li>
+                        <li>
+                            <a href="javascript:return false;">NHK·E텔레 특별 프로그램 “ETV 특집</a>
+                            <p>25.07.25</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 오른쪽 -->
+                <div class="news_right">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./img/news1.jpg" alt="news1"></div>
+                            <div class="swiper-slide"><img src="./img/news2.jpg" alt="news2"></div>
+                            <div class="swiper-slide"><img src="./img/news3.jpg" alt="news3"></div>
+                            <div class="swiper-slide"><img src="./img/news4.jpg" alt="news4"></div>
+
+                        </div>
+
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div> <!-- swiper  end -->
+                </div> <!-- right end -->
+            </div> <!-- news_wrap end -->
+
+
+            <!-- 모바일버전 뉴스 리스트 -->
+            <div class="news_wrap2">
+                <div class="news_mobile">
+                    <ul class="news">
+                        <li>
+                            <a href="javascript:return false;">「지브리 소식」2025년 9월호</a>
+                            <p>25.09.10</p>
+                        </li>
+                        <li>
+                            <a href="javascript:return false;">선명한 4K 영상으로 IMAX® 스크린에 되살아난다!</a>
+                            <p>25.08.29</p>
+                        </li>
+                        <li>
+                            <a href="javascript:return false;">마루 마나, 창업 최초의 TV CM 지브리가 제작</a>
+                            <p>25.08.18</p>
+                        </li>
+                        <li>
+                            <a href="javascript:return false;">「지브리 소식」 2025년 8월호</a>
+                            <p>25.08.08</p>
+                        </li>
+                        <li>
+                            <a href="javascript:return false;">NHK·E텔레 특별 프로그램 “ETV 특집</a>
+                            <p>25.07.25</p>
+                        </li>
+                    </ul>
+                </div>
+            </div> <!-- news_wrap2 end -->
+
+        </div> <!-- center end -->
+    </div> <!-- section3 end -->
+
+
+
+    <!-- 토토로 section -->
+    <!-- 땅 -->
+    <div class="land"></div>
+
+    <!-- 동굴 -->
+    <div id="totoro_section">
+        <div class="layout">
+            <img class="kuro1" src="./img/kuro.png" alt="kuro">
+            <img class="kuro2" src="./img/kuro.png" alt="kuro">
+            <img class="kuro3" src="./img/kuro.png" alt="kuro">
+        </div>
+    </div>
+    <div id="exex"></div>
+    <!-- 바닥 -->
+    <div class="land_bottom"></div>
+
+
+
+
+
+<!-- ghibri -->
+<div id="section4">
+    <div class="section_center" >
+        <div class="ghibri_wrap">
+            <ul class="ghibri">
+                <li>
+                    <div class="img_wrap">
+                        <img src="./img/ghibri1.jpg" alt="ghibri1">
+                    </div>
+                    <h2>GHIBLI MUSEUM</h2>
+                    <p>도쿄 미타카시에 위치한 지브리 미술관은 '만화영화의 숲'이라는 별칭을 가지고 있습니다. 지브리 작품 속 장면들이 현실이 된 듯한 환상적인 공간을 직접 경험할 수
+                        있습니다.</p>
+                    <div class="info">
+                        <p><span>위치</span>도쿄 미타카시</p>
+                        <p><span>운영</span> 완전 예약제 (*월요일 휴관)</p>
+                    </div>
+                    <div class="ghibri_btn">
+                        <a href="javascript:return false;">
+                            더보기
+                            <span class="btn-bubble-inner">
+                                <span class="btn-bubble-itembox">
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                </span>
+                            </span>
+                        </a>
+                        <a href="javascript:return false;">
+                            지도보기
+                            <span class="btn-bubble-inner">
+                                <span class="btn-bubble-itembox">
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="img_wrap">
+                        <img src="./img/park1.jpg" alt="park1">
+                    </div>
+                    <h2>GHIBLI PARK</h2>
+                    <p>지브리 공원은 스튜디오 지브리의 세계를 대표하는 공원으로, 5개의 구역이 2005년 아이치 엑스포 기념 공원(모리코로 공원)의 광대한 부지에 펼쳐져 있습니다. 공원을
+                        산책하며 다양한 즐거움을 찾아보세요.</p>
+                    <div class="info">
+                        <p><span>위치</span> 아이치현 나가쿠테시 아이•치큐하쿠 기념공원 (모리코로파크)</p>
+                        <p><span>운영</span> 08:00 ~ 19:00 (*화요일 휴관)</p>
+                    </div>
+
+                    <div class="ghibri_btn">
+                        <a href="javascript:return false;">
+                            더보기
+                            <span class="btn-bubble-inner">
+                                <span class="btn-bubble-itembox">
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                </span>
+                            </span>
+                        </a>
+                        <a href="javascript:return false;">
+                            지도보기
+                            <span class="btn-bubble-inner">
+                                <span class="btn-bubble-itembox">
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+        </div> <!--wrap end -->
+    </div> <!-- center end -->
+</div> <!-- ghibri end -->
+
+
+
+
+
+
+
+
+
+
+    <!-- service -->
+    <div id="section5" >
+        <div class="section_center">
+            <div class="title">
+                <img src="./img/dust.png" alt="dust">
+                <h2>주요 서비스</h2>
+            </div>
+
+            <ul class="service_wrap">
+                <li><a href="javascript:return false;">이벤트</a></li>
+                <li><a href="javascript:return false;">관련 서적</a></li>
+                <li><a href="javascript:return false;">회사 안내</a></li>
+                <li><a href="javascript:return false;">문의사항</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+<!-- sea section -->
+<div id="sea_section">
+  <img src="./img/wave33.png" class="wave wave-back" alt="wave">
+  <img src="./img/wave22.png" class="wave wave-mid" alt="wave">
+  <img src="./img/wave11.png" class="wave wave-front" alt="wave">
+  <img src="./img/boat.png" class="boat" alt="boat">
+</div>
+
+
+
+    <!-- 푸터 -->
+    <div id="footer">
+        <div class="section_center_footer">
+            <div class="footer_wrap">
+
+                <div class="footer_left">
+                    <h1><a href="./index.html"><img class="footer_logo" src="./img/logo_white.png"
+                                alt="footer_logo"></a></h1>
+                    <ul class="footer_menu">
+                        <li><a href="javascript:return false;">스튜디오 지브리 개요</a></li>
+                        <li><a href="javascript:return false;">스튜디오 지브리의 역사</a></li>
+                        <li><a href="javascript:return false;">스튜디오 지브리의 연표</a></li>
+                        <li><a href="javascript:return false;">스튜디오 지브리 관련 링크</a></li>
+                    </ul>
+                    <p>© 2005-2025 STUDIO GHIBLI Inc.</p>
+                </div>
+
+                <div class="footer_right">
+                    <img class="footer_totoro" src="./img/footer_right.png" alt="footer_img">
+                    <ul class="footer_link">
+                        <li><a href="javascript:return false;"><img src="./img/footer_menu1.png" alt="footer_menu1"></a>
+                        </li>
+                        <li><a href="javascript:return false;"><img src="./img/footer_menu2.png" alt="footer_menu2"></a>
+                        </li>
+                        <li><a href="javascript:return false;"><img src="./img/footer_menu3.png" alt="footer_menu3"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div> <!-- wrap end -->
+        </div> <!-- center end -->
+    </div> <!-- footer end -->
+
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- 내가 만든 것 -->
+    <script src="./js/script.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
